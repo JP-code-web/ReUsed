@@ -43,11 +43,11 @@ No âmbito do Desenvolvimento sustentável, foram desenhados alguns objetivos, p
 
  
    
-3)Entregar os respetivos bens aos nossos colaboradores.
+3)Pedido de "bens" para ser entregue.
   Agendada a recolha existe uma deslocação dos nossos colaboradores ao local e hora combinadas. Sendo assim feita a entrega dos bens aos nossos funcionários.(**Caso de utilização indiponivel**)
-  **Pré-condições:** - Confirmação e agendamento da recolha.
-  **Passo a passo:** - 1.Agendar a recolha.
-                     - 2.Coletar os bens.
+  **Pré-condições:** - NA
+  **Passo a passo:** - 1.Procurar o item desejado na lista de investario .
+                     - 2.Selecionar o determinado item para ser lhe enviado.
 
                   
 
