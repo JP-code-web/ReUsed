@@ -29,9 +29,10 @@ No âmbito do Desenvolvimento sustentável, foram desenhados alguns objetivos, p
 1)Inserir os seus "bens" para serem doados
   O utilizador inscreve-se na aplicação e a partir dai já poderá disponibilizar inserir a doação com uma respetiva descrição.(**Caso de utilização indiponivel**)
   **Pré-condições:**  NA
-  **Passo a passo:**  1.Recolher informações sobre um bem a ser disponibilizado.
-                      2.Inserir as informações na aplicação.
-                      3.Aguardar comfirmação por parte da aplicação.
+  **Passo a passo:**  
+  1. Recolher informações sobre um bem a ser disponibilizado.
+  2. Inserir as informações na aplicação.
+  3. Aguardar comfirmação por parte da aplicação.
 
     
 
