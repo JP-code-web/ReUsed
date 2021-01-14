@@ -28,7 +28,8 @@ No âmbito do Desenvolvimento sustentável, foram desenhados alguns objetivos, p
 
 1)Inserir os seus "bens" para serem doados
   O utilizador inscreve-se na aplicação e a partir dai já poderá disponibilizar inserir a doação com uma respetiva descrição.(**Caso de utilização indiponivel**)
-  **Pré-condições:**  NA
+  **Pré-condições:**  
+  NA
   **Passo a passo:**  
   1. Recolher informações sobre um bem a ser disponibilizado.
   2. Inserir as informações na aplicação.
@@ -37,19 +38,23 @@ No âmbito do Desenvolvimento sustentável, foram desenhados alguns objetivos, p
     
 
 2)Acesso ao inventario de bens.
-  Como referido no último passo do caso de utilização anterior é aguardada uma resposta por parte da aplicação. (**Este caso de utilização já disponível na aplicação, /invt**)
-  **Pré-condições:** - NA
-  **Passo a passo:** - 1.Fazer o pedido a aplicaçao sobre a consulta do inventario.
-                     - 2.Acesso para consulta do inventario de todos as doações disponiveis.
+  Como referido no último passo do caso de utilização anterior é aguardada uma resposta por parte da aplicação. (**Este caso de utilização já disponível na aplicação**)
+  **Pré-condições:** 
+  NA
+  **Passo a passo:**
+  1. Fazer o pedido a aplicaçao sobre a consulta do inventario.
+  2. Acesso para consulta do inventario de todos as doações disponiveis.
 
  
    
-3)Pedido de "bens" para ser entregue.
+3)Pedido de "bens" para ser entregue e inscrição do utilizador como "recebedor".
   Agendada a recolha existe uma deslocação dos nossos colaboradores ao local e hora combinadas. Sendo assim feita a entrega dos bens aos nossos funcionários.(**Caso de utilização indiponivel**)
-  **Pré-condições:** - NA
-  **Passo a passo:** - 1.Procurar o item desejado na lista de investario .
-                     - 2.Selecionar o determinado item para lhe ser enviado.
-
+  **Pré-condições:** 
+  NA
+  **Passo a passo:** 
+  1. inscrição do novo Recebor na base dados.
+  2. Procurar o item desejado na lista de investario.
+  3. Selecionar o determinado item para lhe ser enviado.
                   
 
 
