@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity     
 @Table(name ="tipo_doacao")  //nome real da tabela no SQL
-public class Tipo{
+public class Inventario{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="tipodoa_id")
@@ -29,9 +29,9 @@ public class Tipo{
     @JsonIgnoreProperties({"tipo"}) // NAO alterar
     private List<Doacao> doacaos;  // jasonignore "tipo_doacao" "tipodoa_id"
     
-    public Tipo() {}
+    public Inventario() {}
 
-    public Tipo(int tipodoa_id, String tipodoa_nome, List<Doacao> doacaos) {
+    public Inventario(int tipodoa_id, String tipodoa_nome, List<Doacao> doacaos) {
         this.tipodoa_id = tipodoa_id;
         this.tipodoa_nome = tipodoa_nome;
         this.doacaos = doacaos;

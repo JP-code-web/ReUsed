@@ -31,7 +31,7 @@ public class Doacao {           //@ManyToOne
     @ManyToOne  
     @JoinColumn(name="doa_tipo_id") // FK
     @JsonIgnoreProperties({"doacaos"})  // nao mexer no @JsonIgnoreProperties!
-    private Tipo tipo;
+    private Inventario tipo;
 
     public Doacao() {}
 
@@ -58,11 +58,11 @@ public class Doacao {           //@ManyToOne
         return doa_cor;
     }
 
-    public Tipo getTipo() {
+    public Inventario getTipo() {
         return tipo;
     }
 
-    public void setTipo(Tipo tipo) {
+    public void setTipo(Inventario tipo) {
         this.tipo = tipo;
     }
 

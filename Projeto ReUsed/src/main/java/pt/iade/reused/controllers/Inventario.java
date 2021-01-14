@@ -7,20 +7,20 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pt.iade.reused.models.Tipo;
-import pt.iade.reused.repositories.TipoRepository;
 
+//import pt.iade.reused.models.Inventario; ♠
+import pt.iade.reused.repositories.InventarioRepository;
 
 @RestController                              // http://localhost:8080/api/invt  mvnw spring-boot:run
 @RequestMapping(path = "/api/invt")
-public class TipoController {
-    private Logger logger = LoggerFactory.getLogger(TipoController.class);
+public class Inventario {
+    private Logger logger = LoggerFactory.getLogger(Inventario.class);
     @Autowired
-    private TipoRepository tipoRepository;
+    private InventarioRepository inventarioRepository;
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
 
-    public Iterable<Tipo> getTipos() {
+    public Iterable<pt.iade.reused.models.Inventario> getTipos() {  //!!Perguntar porque é que nao aceita <Inventrio>
     logger.info("Enviar todo o inventario");
-        return tipoRepository.findAll();
+        return inventarioRepository.findAll();
     }
 }   //poi

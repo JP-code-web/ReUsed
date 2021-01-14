@@ -21,7 +21,7 @@ public class EscalaController {
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
 
     public Iterable<Escala> getEscalas() {
-    logger.info("Enviar todos as escalas");
+    logger.info("Enviar todos as escalas de avaliaçao");
         return escalaRepository.findAll();
     }
 }   //poi
