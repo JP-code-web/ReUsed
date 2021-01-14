@@ -66,4 +66,4 @@ public class Doacao {           //@ManyToOne
         this.tipo = tipo;
     }
 
-}
+}   // poi
