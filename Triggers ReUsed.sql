@@ -11,6 +11,7 @@ DELIMITER ;
 	insert into doacao (Doa_desc ,Doa_marca, Doa_cor, Doa_tipo_ID, Doa_existe,doa_valor) value ("3patas",null,"cinzento",4,1,15);
     insert into doacao (Doa_desc ,Doa_marca, Doa_cor, Doa_tipo_ID, Doa_existe,doa_valor) value (null,null,"cinzento",4,1,20);
     insert into doacao (Doa_desc ,Doa_marca, Doa_cor, Doa_tipo_ID, Doa_existe,doa_valor) value (null,"cater","cinzento",4,1,15);
+    update doaçao (entra um bem), insere na audit entrada
     */
     
 -- --------------------------  
@@ -34,6 +35,7 @@ UPDATE doacao SET Doa_marca= "rart" WHERE doa_ID = 15;
 UPDATE doacao SET Doa_existe= 0  WHERE doa_ID = 16;
 UPDATE doacao SET Doa_existe= 0  WHERE doa_ID = 1;
 UPDATE doacao SET Doa_existe= 0  WHERE doa_ID = 2;
+update doaçao e doa_existe para 0, vai tudo para audit saida
 */
 
 -- --------
@@ -45,4 +47,9 @@ DELIMITER //
 	insert into audit_saida (Doa_ID,existe,    Doa_desc,Doa_marca,Doa_cor) values (new.Sai_Doa_ID, 0,"Nao disponivel","Nao disponivel","Nao disponivel");
     END//
 DELIMITER ; 
+
 -- drop trigger comfimar_pedido
+/* 
+ao conf pedido faz update no registo saida e insere em auditsaida
+*/
+
